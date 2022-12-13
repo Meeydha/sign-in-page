@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(219, 210, 210);
+    padding: 50px 25px;
+
+}
+.flex-container .first-block {
+    width: 33.33vw;
+    border-radius: 5px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#first-form {
+    padding:85px 65px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+#first-para , #para {
+    color: rgb(173, 166, 166);
+    font-size: medium;
+}
+h1 {
+    font-size: x-large;
+}
+label, input[type="email"], input[type="password"], button {
+    display:inline-block;
+    width: 100%;
+}
+input[type="email"], input[type="password"], button {
+    margin:10px 0 0 00;
+    height: 3em;
+    min-height: 2em;
+    border: 1px solid rgb(211, 200, 200);
+    border-radius: 10px;
+}
+input[type="email"], input[type="password"] {
+    padding-left: 10px;
+}
+label {
+    margin-top: 0.3em;
+}
+#pass-link, #pass-link2 {
+    float: right;
+    display: inline;
+    position: relative;
+    left: 30px;
+    
+}
+#pass-link a:link {
+    text-decoration: none;
+    color: black;
+}
+#pass-link2 a:link {
+    text-decoration: none;
+    color: black;
+}
+.material-icons {
+    float: right;
+    font-size: 10px;
+    color: rgb(219, 210, 210);
+}
+#pass-div .material-icons {
+   /* margin-left: 10px;*/
+    position: relative;
+    bottom: 30px;
+    margin-right: 10px;
+}
+#checkbox-tag, #checkbox-tag2 {
+    display: inline;
+}
+#sign-in, #sign-in2 {
+    color: white;
+    background-color: black;
+}
+#google, #google2 {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#sign-up >a {
+    color: black;
+}
+#sign-up2 >a {
+    color: black;
+}
+#sign-up, #sign-up2 {
+    text-align: center;
+    color: rgb(173, 166, 166);
+}
+img {
+    width: 20px;
+    margin-top: 5px;
+    position: relative;
+    top: 0.35rem;
+    right: 0.3rem;
+}
+#image-block {
+    background-image: url("image0.jpeg"); 
+}
+.trans-box {
+    border: 1px solid rgb(0, 0, 0, 0.54);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 1.0);
+    opacity:0.5;
+    width:95%;
+    color: white;
+    position: relative;
+    top: 55%;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px 20px;
+
+}
+#founder-tag {
+    font-size: x-small;
+}
+#name-tag, #author-note {
+    font-size: 18px;
+}
+.last-block {
+    display: inline;
+    width: 25vw;
+    float: right;
+    background-color: white;
+    position: relative;
+    bottom: 37.3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/*second form style*/
+#second-form {
+    padding:50px 15px;
+    background-color: white;
+    border:1px solid red;
+}
+#icons .material-icons {
+    position: relative;
+    bottom: 70px;
+    left: 5px;
+    z-index: 1;
+    font-size: 15px;
+}
+/*.fa #arrow {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 19rem;
+    bottom: 30px;
+    
+}*/
+ /*.fa #rightarrow {
+    font-size: 40px;
+    position: relative;
+   
+}*/
+.fa {
+    position: relative;
+    left: 19rem;
+    bottom: 45px;
+    padding: 10px;
+}
+#arrow, #rightarrow {
+    font-size: 40px;
+}
